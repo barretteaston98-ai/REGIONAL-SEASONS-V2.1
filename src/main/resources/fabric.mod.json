@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "regionalseasons",
+  "version": "${version}",
+  "name": "Regional Seasons",
+  "description": "Seasons, climate-aware winter precipitation, regional radar, AA-powered storm radio, survival heat/cold effects, craftable fan, 18-layer snow. Fabric 1.21.1.",
+  "authors": [
+    "Community project"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "dev.easton.regionalseasons.RegionalSeasons"
+    ],
+    "client": [
+      "dev.easton.regionalseasons.client.RegionalSeasonsClient"
+    ]
+  },
+  "mixins": [
+    "regionalseasons.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.10",
+    "minecraft": "1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}

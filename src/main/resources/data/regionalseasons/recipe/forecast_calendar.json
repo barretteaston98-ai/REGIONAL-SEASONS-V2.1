@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "PPP",
+    "PIP",
+    "PPP"
+  ],
+  "key": {
+    "P": "minecraft:paper",
+    "I": "minecraft:ink_sac"
+  },
+  "result": {
+    "id": "regionalseasons:forecast_calendar",
+    "count": 1
+  }
+}

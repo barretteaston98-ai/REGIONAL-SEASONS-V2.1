@@ -1,0 +1,11 @@
+{
+  "required": true,
+  "package": "dev.easton.regionalseasons.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "BiomeMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

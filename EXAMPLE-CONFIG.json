@@ -1,0 +1,22 @@
+{
+  "daysPerSeason": 14,
+  "enableSeasonalPrecipitation": true,
+  "enableSurfaceSnow": true,
+  "enableSeasonalThaw": true,
+  "enableRareColdSnaps": true,
+  "enableExposureEffects": true,
+  "enableWeatherRadar": true,
+  "enableStormRadio": true,
+  "enableHeatEffects": true,
+  "radioAlertCooldownSeconds": 90,
+  "radarRadiusBlocks": 1024,
+  "fanCoolingCelsius": 6,
+  "indoorTemperatureComfortCelsius": 20,
+  "showClimateHud": true,
+  "showFahrenheit": true,
+  "snowThresholdFahrenheit": 35,
+  "degreesCelsiusLostPerBlockAboveSeaLevel": 0.085,
+  "environmentUpdateTicks": 40,
+  "samplesPerPlayer": 36,
+  "updateRadiusBlocks": 32
+}
